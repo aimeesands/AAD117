@@ -6,7 +6,7 @@ __________________
 - [Wordmark] (https://www.flickr.com/photos/aimeesands/16110019074/in/album-72157651204215525/)
 - [Rough work] (https://www.flickr.com/photos/aimeesands/sets/72157651184787162/)
 
- Logo Branding
+Logo Branding
 __________________
 
 - [Logo] (https://www.flickr.com/photos/aimeesands/16650653427/)
