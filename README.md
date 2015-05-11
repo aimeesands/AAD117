@@ -10,7 +10,7 @@ Logo Branding
 __________________
 
 - [Logo] (https://www.flickr.com/photos/aimeesands/16650653427/)
-- [Rough work] (https://www.flickr.com/photos/aimeesands/16670427358/)
+- [Rough work] (https://www.flickr.com/photos/aimeesands/sets/72157651391257176)
 - [Icon Set] (https://www.flickr.com/photos/aimeesands/17224745829/in/dateposted-public/)
 - [Style Tile] (https://www.flickr.com/photos/aimeesands/17203380877/in/dateposted-public/)
 - [Touch Points] (https://www.flickr.com/photos/aimeesands/sets/72157652648348145)
