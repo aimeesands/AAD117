@@ -1,0 +1,113 @@
+<!--external style sheet--> 
+
+    body {
+        background: #85d8dd
+        color: #400D0C;
+        padding:100;
+        font-size: 20px;
+    }
+    
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 70px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 40px;
+          
+    }
+    
+    h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 40px;
+        text-align: left;
+        text-transform: uppercase;
+        margin: 10px  200px ;
+    }
+     
+        
+    h3 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 200px;
+        
+    }
+
+    p {
+       font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        text-align: left;
+        margin: 30px  200px ;
+    
+    }
+    a {
+        font-family: 'Oswald', sans-serif;
+        color: grey;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        align: right;
+    }
+    
+    a:hover {
+        color: #000000;
+    }
+    
+    nav {
+        border-bottom: 1px solid #ccc;
+        padding-top: 1px;
+    }
+        
+    nav ul {
+        text-align: center;
+        list-style-type: circle;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 10px;
+    
+    }
+    
+    img {
+        display: block;
+        margin: 0 auto;
+        padding-top: 50px;
+    
+    }
+
+    div {
+        background-color: #f5f5f4;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        
+    
+    }
+    
+    #logo {
+        background-color: #FFFFFF;
+        padding-top: 40px;
+        padding-bottom: 10px;     
+        width: 100%;
+    }
+    #logoleft {
+        background-color: #FFFFFF;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        float:left;
+        width: 630px;
+        height: 750;
+         
+    }
+
+    #logoright {
+        background-color: #FFFFFF;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        float: right;
+        width: 625px;
+        height: 750;
+         
+    }

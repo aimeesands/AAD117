@@ -1,0 +1,254 @@
+<html>
+<head>
+    <title>Brand Guidelines</title>
+    <!-- external Style Sheet -->
+    <link href="brandguidelines.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    
+</head>
+    <body>
+        <header>
+            </section>
+        <nav>
+        <ul>
+          <li>
+            <a href="#Intro">Intro</a>
+          </li>
+
+          <li>
+            <a href="#Logo">Logo</a>
+          </li>
+            <li>
+            <a href="#Colour">Colour</a>
+          </li>
+            <li>
+            <a href="#Icons">Icons</a>
+          </li>
+            <li>
+            <a href="#Typography">Typography</a>
+          </li>
+        </ul>
+      </nav>
+</section>
+        </header>
+
+    <section>
+<!--slideshow--> 
+        
+</script>
+
+<center>
+<script type="text/javascript">
+
+// Flexible Image Slideshow- By JavaScriptKit.com (http://www.javascriptkit.com)
+// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+// This notice must stay intact for use
+
+var ultimateshow=new Array()
+
+//ultimateshow[x]=["E:\iMediaYEAR2\WebsiteManagement\PortfolioWebsite\images\"]
+
+ultimateshow[0]=['images/logo.png']
+ultimateshow[1]=['images/yellowlogo.png']
+ultimateshow[2]=['images/orangelogo.png']
+ultimateshow[3]=['images/pinklogo.png']
+ultimateshow[4]=['images/bluelogo.png']
+ultimateshow[5]=['images/greenlogo.png']
+
+
+//configure the below 3 variables to set the dimension/background color of the slideshow
+
+var slidewidth="300px" //set to width of LARGEST image in your slideshow
+var slideheight="300px" //set to height of LARGEST iamge in your slideshow
+var slidecycles="6" //number of cycles before slideshow stops (ie: "2" or "continous")
+var randomorder="no" //randomize the order in which images are displayed? "yes" or "no"
+var preloadimages="yes" //preload images? "yes" or "no"
+var slidebgcolor='white'
+
+//configure the below variable to determine the delay between image rotations (in miliseconds)
+var slidedelay=2000
+
+////Do not edit pass this line////////////////
+
+var ie=document.all
+var dom=document.getElementById
+var curcycle=0
+
+if (preloadimages=="yes"){
+for (i=0;i<ultimateshow.length;i++){
+var cacheimage=new Image()
+cacheimage.src=ultimateshow[i][0]
+}
+}
+
+var currentslide=0
+
+function randomize(targetarray){
+ultimateshowCopy=new Array()
+var the_one
+var z=0
+while (z<targetarray.length){
+the_one=Math.floor(Math.random()*targetarray.length)
+if (targetarray[the_one]!="_selected!"){
+ultimateshowCopy[z]=targetarray[the_one]
+targetarray[the_one]="_selected!"
+z++
+}
+}
+}
+
+if (randomorder=="yes")
+randomize(ultimateshow)
+else
+ultimateshowCopy=ultimateshow
+
+function rotateimages(){
+curcycle=(currentslide==0)? curcycle+1 : curcycle
+ultcontainer='<center>'
+if (ultimateshowCopy[currentslide][1]!="")
+ultcontainer+='<a href="'+ultimateshowCopy[currentslide][1]+'" target="'+ultimateshowCopy[currentslide][2]+'">'
+ultcontainer+='<img src="'+ultimateshowCopy[currentslide][0]+'" border="0">'
+if (ultimateshowCopy[currentslide][1]!="")
+ultcontainer+='</a>'
+ultcontainer+='</center>'
+if (ie||dom)
+crossrotateobj.innerHTML=ultcontainer
+if (currentslide==ultimateshow.length-1) currentslide=0
+else currentslide++
+if (curcycle==parseInt(slidecycles) && currentslide==0)
+return
+setTimeout("rotateimages()",slidedelay)
+}
+
+if (ie||dom)
+document.write('<div id="slidedom" style="width:'+slidewidth+';height:'+slideheight+'; background-color:'+slidebgcolor+'"></div>')
+
+function start_slider(){
+crossrotateobj=dom? document.getElementById("slidedom") : document.all.slidedom
+rotateimages()
+}
+
+if (ie||dom)
+window.onload=start_slider
+
+</script>
+ 
+    </section>
+
+<h1>Brand Guidelines</h1>
+
+<div>
+    <h2>Brand Identity</h2><h2 id="Intro"></h2>
+    
+    <p>Uncommon Knowledge is a creative service where young creatives, professionals and students can use our inspiring and knowledgable books and workshops to boost their brains and enlighten them with our masterly wisdom that has been collected over 30 years of working in the design and web industry as well as teaching all over the world.</p>
+    
+<h3>Common Knowledges Knowledgable Beard Man. AKA Chris Murphy</h3>
+    <p>Chris Murphy is a designer, writer, public speaker and educator amongst other things based in the heart of Belfast, Northern Ireland. He is a very successful business entrepreneur who has created this brand Uncommon Knowledge so he can spread his knowledge and wisdom which will allow the industry to expand and let creatives excell and grow in their feild of expertise.</p>
+
+    <p>He is a world class writer and has written and co-written many books such as HTML and CSS Web Standard Solutions, The Craft of Words- Part One and Two, and continues to write articles for top magazines and blogs such as .Net. </p>
+    
+    <p>As well as being a passionate writer he also benefits himself by being a conference speaker and has spoken at many resepected design conferences around the world including Build Belfast and Brooklyn Beta in NYC and many more! </p>
+    
+    <p>He has also been describes as a "William Morris of the digital age." - Creative Review.</p>
+</div>
+
+<div id= "logo">
+<h2>Logo</h2><h2 id="Logo"></h2>
+    
+    
+<div id= "logoleft">
+    
+    <h3>Standard Logo</h3>
+    <img src="images/logobw.png">
+    
+    <p> -   Should be used within the brand when not assosiated with the book series.</p>
+    <p> -   Should be shown clearly at an appropriate size for the branded item.</p>
+    <p> -   When used in a letter head should be placed on the top left corner of the page at a size of 100x100px.</p>
+    <p> -   Should only be shown on a white background.</p>
+    
+    
+    
+
+</div><!--logoleft end-->
+
+<div id= "logoright">
+    
+<h3>Colour Logo</h3>
+    <img src="images/colourlogo.png">
+    
+    <p> -   Should only be used in relation to the book series.</p>
+    <p> -   Should be placed on the top left corner of each book cover to clearly indicate the brand.</p>
+    <p> -   When used on a business card it should be the only subject on that particular side of the branded item.</p>
+    <p> -   The coloured logo should only be used on top of the lighter shade of the same colour or white.</p>
+    
+    
+
+    </div><!--logoright end-->
+    </div><!--logo end-->
+
+<!--useage of logo-->
+<div id= "logo">
+<p>___________________________________________________________________________________________________________________________________</p>
+<h3>Usage of Logo:</h3>
+    
+    <img src="images/no.png">
+<h3>Do Not:</h3>
+<p>Alter our logo in anyway.(change shape, colour type).</p>
+<p>Use our logo in any way that will effect the reputation of the brand.</p>
+<p>Place the logo so that it can not be recognised easily.</p>
+
+
+<h3>Alternative Logo</h3>
+
+<p>An alternative logo can be used instead of the standard logo. It may be used on a website or on official documents if nessessary.</p>
+<img src="images/alterlogo.png">
+
+</div>
+
+
+<!--colour start-->
+<div>
+    <h2>Colour</h2><h2 id="Colour">
+    
+    <img src="images/colourpallette.png">
+    
+    
+
+<p> - Only the light and dark shade of the same colour should be used together.</p>
+<p> - Never mix two different colours together.</p>   
+<p> - The colour pallete should only be used in connection with the series of book covers the same as the coloured logo.</p>  
+<p> - This strong vibrant colour pallete represents a creative audience and attracts an audience of all ages.</p>
+<p> - Black and white should be used an a neautral colour for the brand if the series of books are not related. </p>
+    
+   <h3>Example:</h3>
+    
+    <img src="images/bookcover.jpg">
+
+</div>
+
+<h2>Icons</h2><h2 id="Icons"></h2> 
+<img src="images/icons.png">
+
+<p> - Only to be used with a white background so that they stand out to their full potential.</p>
+<p> - Maximum size each icon should appear at is 100x100px.</p>
+<p> - minimum size each icon should appear at is 25x25px.</p>
+<p> - Icons by used throughout the brand on a website or books to display information easier to the audience.</p>
+    
+    
+<div>
+    <h2>Typography</h2><h2 id="Typography"></h2>
+    
+    <p>We have used a sans-serif font to keep it modern and fresh which is simple and easy for the user to read. </p>
+    
+    <p> - Text can only be used in black and white.</p>
+
+    <img src="images/typography.png">
+</div>
+
+<footer>
+<p align="center"><small>Uncommon Knowledge Brand Guidelines by Aimee Sands</small></p>
+</footer>
+
+    </body>
+    </html>
