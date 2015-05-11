@@ -14,3 +14,4 @@ __________________
 - [Icon Set] (https://www.flickr.com/photos/aimeesands/17224745829/in/dateposted-public/)
 - [Style Tile] (https://www.flickr.com/photos/aimeesands/17203380877/in/dateposted-public/)
 - [Touch Points] (https://www.flickr.com/photos/aimeesands/sets/72157652648348145)
+- [Brand Guidelines] (http://aimeesands.github.io/AAD117/index.html)
